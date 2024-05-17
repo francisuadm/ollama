@@ -21,8 +21,8 @@ sudo apt install linux-headers-$(uname -r)
 sudo ubuntu-drivers autoinstall
 sudo apt install nvidia-driver-XXX
 
-https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=runfile_local
-wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda_12.4.1_550.54.15_linux.run
+[https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=runfile_local](URL)
+```wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda_12.4.1_550.54.15_linux.run```
 chmod +x cuda_12.4.1_550.54.15_linux.run
 sudo apt update
 sudo apt install gcc dkms -y
